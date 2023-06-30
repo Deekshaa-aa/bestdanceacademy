@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung';
+    padding: 21px 14px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    font-size: 21px;
+}
+#navbar li a:hover{
+    color: black;
+    font-size: 23px;
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    background: url("/static/lec75_bg.jpg") no-repeat center center/cover;
+    height: 450px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 25px;
+}
+
+#missionSection{
+    height: 326px;
+    width: 67%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+#sponsorsSection{
+    height: 200px;
+    background-color: #d8c8d8;
+    width: 720px;
+    padding: 0px 400px;
+}
+#sponsorsSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding: 20px;
+}
+.spImage{
+    height: 80px;
+    margin: 0px 38px;
+}
+
+#footer{
+    background-color: black;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
